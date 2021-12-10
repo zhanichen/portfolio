@@ -54,6 +54,8 @@ header#Home img {
   height: auto;
   -webkit-filter: brightness(70%);
           filter: brightness(70%);
+  min-height: 800px;
+  min-width: 1400px;
 }
 header#Home h1, header#Home h4 {
   position: relative;
@@ -211,13 +213,13 @@ section#Skill .container .skill_box {
 section#Works {
   background-color: #ededed;
   padding: 80px 0px 0px 0px;
-  text-align: center;
 }
 section#Works h1 {
   font-size: 40px;
   font-weight: 500;
   color: #4d4f4f;
   margin-bottom: 80px;
+  text-align: center;
 }
 section#Works .works_text {
   left: 20px;
@@ -270,10 +272,6 @@ section#Works .works h5 {
   letter-spacing: 0.5px;
   text-align: justify;
   font-weight: 400;
-}
-section#Works .works .button_box {
-  -moz-text-align-last: left !important;
-       text-align-last: left !important;
 }
 section#Works .works .button {
   width: 118px;
@@ -343,7 +341,6 @@ section#Works .works img.reddot {
 }
 
 section#Contact {
-  text-align: center;
   background-color: #ededed;
   padding: 100px 0px 180px 0px;
 }
@@ -352,6 +349,7 @@ section#Contact h1 {
   font-weight: 500;
   color: #4d4f4f;
   margin-bottom: 80px;
+  text-align: center;
 }
 section#Contact .infos {
   position: relative;
@@ -377,12 +375,6 @@ section#Contact h2 {
   font-size: 22px;
   font-weight: 700;
   left: 16px;
-  -moz-text-align-last: left !important;
-       text-align-last: left !important;
-}
-section#Contact .zhanichen_text {
-  -moz-text-align-last: left !important;
-       text-align-last: left !important;
 }
 section#Contact h3, section#Contact h5, section#Contact h2 {
   -moz-text-align-last: left;
@@ -579,8 +571,12 @@ main.haveOpen {
   }
 }
 @media screen and (max-width: 768px) {
+  header#Home h1 {
+    font-size: 45px;
+  }
   header#Home h4 {
-    top: 540px;
+    top: 630px;
+    font-size: 16px;
   }
 
   section#Skill .container .skill_box h4 {

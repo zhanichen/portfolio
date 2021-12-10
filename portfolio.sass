@@ -76,6 +76,8 @@ header#Home
   img
     +size(100%,auto)
     filter: brightness(70%)
+    min-height: 800px
+    min-width: 1400px
   h1, h4
     +center
     position: absolute
@@ -182,10 +184,10 @@ section#Skill .container .skill_box
 section#Works
   background-color: $gray
   padding: 80px 0px 0px 0px
-  text-align: center
   h1
     +title
     margin-bottom: 80px
+    text-align: center
   .works_text
     left: 20px
   .works
@@ -224,8 +226,6 @@ section#Works
       letter-spacing: 0.5px
       text-align: justify
       font-weight: 400
-    .button_box
-      text-align-last: left !important
     .button
       +size(118px,40px)
       +center
@@ -274,12 +274,12 @@ section#Works
         top:-10px
 
 section#Contact
-  text-align: center
   background-color: $gray
   padding: 100px 0px 180px 0px
   h1
     +title
     margin-bottom: 80px
+    text-align: center
   .infos
     +center
   .photo
@@ -297,9 +297,6 @@ section#Contact
     font-size: 22px
     font-weight: 700
     left: 16px
-    text-align-last: left !important
-  .zhanichen_text
-    text-align-last: left !important
   h3, h5, h2
     text-align-last: left
     color: $black
@@ -381,7 +378,6 @@ main
       cursor: pointer
       transition: 0.5s
       top: 955px
-      // text-align-last: left
       +flexCenter
       z-index: 1000
       &:hover
@@ -444,8 +440,11 @@ main
 // // col.xs
 @media screen and (max-width: 768px)
   header#Home
+    h1
+      font-size: 45px
     h4
-      top:540px
+      top:630px
+      font-size: 16px
   section#Skill .container .skill_box h4
     margin-bottom: 100px
   section#Works
