@@ -77,30 +77,6 @@ header#Home h4 {
   font-size: 16px;
   font-weight: 300;
 }
-header#Home .scroll {
-  position: relative;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  position: absolute;
-  color: #ffffff;
-  top: 690px;
-}
-header#Home .scroll h5 {
-  font-weight: 300;
-  font-size: 14px;
-}
-header#Home .scroll .line {
-  width: 5px;
-  height: 60px;
-  position: relative;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  border-radius: 5px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#eaba6b), to(transparent));
-  background-image: linear-gradient(#eaba6b 0%, transparent 100%);
-}
 
 section#About {
   background-color: #ededed;
@@ -365,7 +341,7 @@ section#Works .works img.reddot {
 section#Contact {
   text-align: center;
   background-color: #ededed;
-  padding: 100px 0px 130px 0px;
+  padding: 100px 0px 150px 0px;
 }
 section#Contact h1 {
   font-size: 40px;
