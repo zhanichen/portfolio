@@ -221,12 +221,8 @@ section#Works h1 {
 }
 section#Works .works_text {
   left: 20px;
-  -moz-text-align-last: left;
-       text-align-last: left;
 }
 section#Works .works {
-  -moz-text-align-last: left;
-       text-align-last: left;
   padding: 20px 50px;
 }
 section#Works .works .works_pic {
@@ -275,6 +271,10 @@ section#Works .works h5 {
   text-align: justify;
   font-weight: 400;
 }
+section#Works .works .button_box {
+  -moz-text-align-last: left !important;
+       text-align-last: left !important;
+}
 section#Works .works .button {
   width: 118px;
   height: 40px;
@@ -292,56 +292,42 @@ section#Works .works .button {
   margin-top: 50px;
   margin-bottom: 50px;
   left: 70px;
-  -moz-text-align-last: left;
-       text-align-last: left;
+  -moz-text-align-last: left !important;
+       text-align-last: left !important;
 }
 section#Works .works .button:hover {
   background-color: #e6e6e6;
 }
 section#Works .works .button .button_text {
   left: 25px;
-  -moz-text-align-last: left;
-       text-align-last: left;
 }
 section#Works .works .button .button_text h4 {
   color: #2dc7ff;
   display: inline-block;
   font-size: 19px;
   font-weight: 400;
-  -moz-text-align-last: left;
-       text-align-last: left;
 }
 section#Works .works .button .button_text i {
   display: inline-block;
   font-size: 16px;
   margin-right: 8px;
   color: #b5b5b5;
-  -moz-text-align-last: left;
-       text-align-last: left;
 }
 section#Works .works .button .button_text.seeMore h4 {
   left: -3px;
-  -moz-text-align-last: left;
-       text-align-last: left;
 }
 section#Works .works .button.right_button {
   width: 134px;
   height: 40px;
   margin-left: 30px;
-  -moz-text-align-last: left;
-       text-align-last: left;
 }
 section#Works .works .button.right_button h4 {
   color: #b5b5b5;
   font-weight: 400;
-  -moz-text-align-last: left;
-       text-align-last: left;
 }
 section#Works .works .button.web {
   width: 118px;
   height: 40px;
-  -moz-text-align-last: left;
-       text-align-last: left;
 }
 section#Works .works img {
   width: 80px;
@@ -372,8 +358,6 @@ section#Contact .infos {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  -moz-text-align-last: left;
-       text-align-last: left;
 }
 section#Contact .photo {
   width: 100px;
@@ -393,14 +377,17 @@ section#Contact h2 {
   font-size: 22px;
   font-weight: 700;
   left: 16px;
-  -moz-text-align-last: left;
-       text-align-last: left;
+  -moz-text-align-last: left !important;
+       text-align-last: left !important;
+}
+section#Contact .zhanichen_text {
+  -moz-text-align-last: left !important;
+       text-align-last: left !important;
 }
 section#Contact h3, section#Contact h5, section#Contact h2 {
   -moz-text-align-last: left;
        text-align-last: left;
   color: #4d4f4f;
-  text-align-last: left;
 }
 section#Contact h3 {
   font-size: 20px;
@@ -517,8 +504,6 @@ main.tainanParkOpen .button {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   top: 955px;
-  -moz-text-align-last: left;
-       text-align-last: left;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -188,9 +188,7 @@ section#Works
     margin-bottom: 80px
   .works_text
     left: 20px
-    text-align-last: left
   .works
-    text-align-last: left
     padding: 20px 50px
     .works_pic
       +size(413px,260px)
@@ -226,6 +224,8 @@ section#Works
       letter-spacing: 0.5px
       text-align: justify
       font-weight: 400
+    .button_box
+      text-align-last: left !important
     .button
       +size(118px,40px)
       +center
@@ -237,39 +237,32 @@ section#Works
       margin-top: 50px
       margin-bottom: 50px
       left: 70px
-      text-align-last: left 
+      text-align-last: left !important
       &:hover
         background-color: darken($gray,2.8)
       .button_text
         left: 25px
-        text-align-last: left
         h4
           color: $blue
           display: inline-block
           font-size: 19px
           font-weight: 400
-          text-align-last: left
         i
           display: inline-block
           font-size: 16px
           margin-right: 8px
           color: #b5b5b5
-          text-align-last: left
         &.seeMore
           h4
             left: -3px
-            text-align-last: left
       &.right_button
         +size(134px,40px)
         margin-left: 30px
-        text-align-last: left
         h4
           color: #b5b5b5
           font-weight: 400
-          text-align-last: left
       &.web
         +size(118px,40px)
-        text-align-last: left
     img
       +size(80px,auto)
       display: block
@@ -289,7 +282,6 @@ section#Contact
     margin-bottom: 80px
   .infos
     +center
-    text-align-last: left
   .photo
     +size(100px)
     background-color: #434343
@@ -305,11 +297,12 @@ section#Contact
     font-size: 22px
     font-weight: 700
     left: 16px
-    text-align-last: left:  !important
+    text-align-last: left !important
+  .zhanichen_text
+    text-align-last: left !important
   h3, h5, h2
     text-align-last: left
     color: $black
-    text-align-last: left
   h3
     font-size: 20px
   h5
@@ -388,7 +381,7 @@ main
       cursor: pointer
       transition: 0.5s
       top: 955px
-      text-align-last: left
+      // text-align-last: left
       +flexCenter
       z-index: 1000
       &:hover
