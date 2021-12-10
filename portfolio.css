@@ -66,14 +66,14 @@ header#Home h1, header#Home h4 {
           filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.6));
 }
 header#Home h1 {
-  top: 450px;
+  top: 470px;
   font-size: 49px;
   font-weight: 400;
   line-height: 60px;
   text-align: justify;
 }
 header#Home h4 {
-  top: 550px;
+  top: 570px;
   font-size: 18px;
   font-weight: 300;
 }
@@ -341,7 +341,7 @@ section#Works .works img.reddot {
 section#Contact {
   text-align: center;
   background-color: #ededed;
-  padding: 100px 0px 170px 0px;
+  padding: 100px 0px 180px 0px;
 }
 section#Contact h1 {
   font-size: 40px;
@@ -429,7 +429,7 @@ footer {
   text-align: center;
 }
 footer p {
-  font-size: 7px;
+  font-size: 9px;
   color: #979798;
   top: 5px;
 }
