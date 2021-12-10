@@ -221,6 +221,8 @@ section#Works h1 {
 }
 section#Works .works_text {
   left: 20px;
+  -moz-text-align-last: left;
+       text-align-last: left;
 }
 section#Works .works {
   -moz-text-align-last: left;
