@@ -155,9 +155,10 @@ section#About .row .button .button_text h4 {
 }
 section#About .row .button .button_text i {
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   margin-right: 8px;
   color: #b5b5b5;
+  top: 1px;
 }
 
 section#Skill {
@@ -421,9 +422,10 @@ section#Contact .button .button_text h4 {
 }
 section#Contact .button .button_text i {
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   margin-right: 8px;
   color: #b5b5b5;
+  top: 1px;
 }
 
 footer {
@@ -516,7 +518,7 @@ main.tainanParkOpen .button .button_text h4 {
 }
 main.tainanParkOpen .button .button_text i {
   display: inline-block;
-  font-size: 16px;
+  font-size: 15px !important;
   margin-right: 8px;
   color: #b5b5b5;
   position: absolute;
