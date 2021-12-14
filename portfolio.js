@@ -7,8 +7,6 @@ $(document).on('click','li>a',function(event){
     },800);
 });
 
-$("body").css("overflow","auto");
-
 var vm = new Vue({
     el:"#app",
     data:{
@@ -17,17 +15,7 @@ var vm = new Vue({
         skinOpen : false,
         mapOpen : false,
         haveOpen : false,
-    },
-    methods:{
-        open(){
-            $("body").css("overflow","hidden"),
-            $("nav").css("display","none")
-    },
-        close(){
-            $("body").css("overflow","auto"),
-            $("nav").css("display","block")
-}
-}});
+    }});
 
 
 var s=skrollr.init();
