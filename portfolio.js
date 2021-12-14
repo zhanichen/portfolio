@@ -17,6 +17,9 @@ var vm = new Vue({
         mapOpen : false,
         haveOpen : false,
     },
+    ready:function(){
+        $("body").css("overflow","auto")
+    },
     methods:{
         open(){
             $("body").css("overflow","hidden"),
@@ -27,6 +30,3 @@ var vm = new Vue({
             $("nav").css("display","block")
 }
 }});
-
-
-var s=skrollr.init();

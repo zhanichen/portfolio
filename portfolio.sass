@@ -90,7 +90,7 @@ header#Home
     line-height: 60px
     text-align: justify
   h4
-    top:570px
+    top: 570px !important
     font-size: 18px
     font-weight: 300
 
@@ -445,7 +445,7 @@ main
     h1
       font-size: 45px
     h4
-      top:630px
+      top:630px !important
       font-size: 16px
   section#Skill .container .skill_box h4
     margin-bottom: 100px
@@ -464,3 +464,42 @@ main
     .photo
       left: 190px 
       top: -15px
+
+
+@media screen and (max-width: 480px)
+  header#Home
+    h1
+      top: 320px
+    h4
+      top: 480px !important
+      font-size: 13px
+  section#About
+    h1 
+      font-size: 49px
+    .col-lg-12
+      transform: scale(0.8) !important
+  section#Works
+    .works
+      padding: 0px 20px !important
+    .works_pic
+      transform: scale(0.7) !important
+      text-align: center !important
+      left: -50px !important
+    .right_button
+      display: none !important
+  section#Contact
+    .container
+      transform: scale(0.95)
+    .zhanichen
+      left: -50px
+  main
+    i
+      font-size: 26px !important
+    img
+      +size(80%,auto)
+      &.tainanParkImg
+        +size(300px,auto) 
+    &.tainanParkOpen
+      .button
+        display: none
+

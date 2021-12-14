@@ -75,7 +75,7 @@ header#Home h1 {
   text-align: justify;
 }
 header#Home h4 {
-  top: 570px;
+  top: 570px !important;
   font-size: 18px;
   font-weight: 300;
 }
@@ -577,7 +577,7 @@ main.haveOpen {
     font-size: 45px;
   }
   header#Home h4 {
-    top: 630px;
+    top: 630px !important;
     font-size: 16px;
   }
 
@@ -603,5 +603,58 @@ main.haveOpen {
   section#Contact .photo {
     left: 190px;
     top: -15px;
+  }
+}
+@media screen and (max-width: 480px) {
+  header#Home h1 {
+    top: 320px;
+  }
+  header#Home h4 {
+    top: 480px !important;
+    font-size: 13px;
+  }
+
+  section#About h1 {
+    font-size: 49px;
+  }
+  section#About .col-lg-12 {
+    -webkit-transform: scale(0.8) !important;
+            transform: scale(0.8) !important;
+  }
+
+  section#Works .works {
+    padding: 0px 20px !important;
+  }
+  section#Works .works_pic {
+    -webkit-transform: scale(0.7) !important;
+            transform: scale(0.7) !important;
+    text-align: center !important;
+    left: -50px !important;
+  }
+  section#Works .right_button {
+    display: none !important;
+  }
+
+  section#Contact .container {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
+  section#Contact .zhanichen {
+    left: -50px;
+  }
+
+  main i {
+    font-size: 26px !important;
+  }
+  main img {
+    width: 80%;
+    height: auto;
+  }
+  main img.tainanParkImg {
+    width: 300px;
+    height: auto;
+  }
+  main.tainanParkOpen .button {
+    display: none;
   }
 }
