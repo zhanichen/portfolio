@@ -7,6 +7,7 @@ $(document).on('click','li>a',function(event){
     },800);
 });
 
+$("body").css("overflow","auto");
 
 var vm = new Vue({
     el:"#app",
